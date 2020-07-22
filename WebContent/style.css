@@ -1,0 +1,474 @@
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+    font-weight: lighter;
+    margin:0px;
+    padding:0px;
+}
+ 
+header {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 990px;
+    text-align: center;
+    margin: 0 auto;
+}
+#nav{
+	    padding:0px;
+  	    margin:0px;
+  	     height: 45px;
+         width: 100%;
+         background: black;
+         position: fixed;
+         top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ 
+#title {
+    display: inline-block;
+    font-size: 64px;
+    padding-top: 200px;
+    width: 40%;
+}
+ 
+#titlebottom {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 60%;
+    font-size: 24px;
+    padding: 70px 70px 100px 70px;
+}
+
+div.search {padding: 30px 0;}
+form {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+        }
+ 
+input, button {
+            border: none;
+            outline: none;
+        }
+ 
+input {
+            width: 80%;
+            height: 42px;
+            padding-left: 13px;
+            padding-right:46px;
+        }
+ 
+button {
+            height: 42px;
+            width: 15%;
+            cursor: pointer;
+            position: absolute;
+        }
+
+        /*搜索框7*/
+        .bar7 {background: transparent;}
+        .bar7 form {
+            height: 42px;
+        }
+        .bar7 input {
+            width: 250px;
+            border-radius: 42px;
+            border: 2px solid #324B4E;
+            background: white;
+            transition: .3s linear;
+            float: right;
+        }
+        .bar7 input:focus {
+            width: 300px;
+        }
+        .bar7 button {
+            background: none;
+            top: 4px;
+            right: 0;
+        }
+        .bar7 button:before{
+            content: url(images/searchbutton2.png);
+            width:40px;
+            height:40px;
+        }
+
+
+ 
+ 
+section {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+ 
+#landingpage {
+    width: 1170px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+#landingpage div {
+    display: inline-block;
+}
+ 
+#landingpage>div:first-child {
+    width: 1170px;
+    height: 15px;
+    font-size: 15px;
+    margin-top: 85px;
+}
+ 
+#landingpage>div:nth-child(2) {
+    width: 1170px;
+    height: 170px;
+    font-size: 48px;
+    margin-top: 40px;
+}
+ 
+#landingpage>div:nth-child(3) {
+    width: 1170px;
+    height: 450px;
+}
+ 
+#moblie div {
+    width: 420px;
+    height: 120px;
+}
+ 
+#moblie div img {
+    float: left;
+}
+ 
+#third {
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+}
+ 
+#story {
+    width: 60%;
+    height: 430px;
+    margin: 180px 180px 180px 320px;
+    float: left;
+    color: #ffffff;
+}
+ 
+#story div:first-child {
+    font-size: 40px;
+    width: 60%;
+}
+ 
+#story div:nth-child(2) {
+	font-size: 18px;
+    width: 60%;
+    margin-top: 40px;
+}
+ 
+#story button:nth-child(3) {
+    width: 240px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+}
+ 
+ 
+#exhibitions {
+    width: 960px;
+    height: 580px;
+    margin: 0 auto;
+}
+ 
+#exhibitions>div:first-child {
+    font-size: 48px;
+    text-align: center;
+    margin: 90px auto 80px auto;
+}
+ 
+#prointroduction {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#prointroduction div {
+    width: 260px;
+    height: 280px;
+}
+ 
+#prointroduction img {
+    display: table-cell;
+    text-align: center;
+}
+ 
+#learn {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color:aliceblue;
+   
+}
+ 
+#learn div div:first-child {
+    float: left;
+    width: 320px;
+    height: 240px;
+    margin-top: 150px;
+    margin-left: 15%;
+
+}
+ 
+#learn div div:nth-child(2) {
+    float: right;
+    width: 320px;
+    height: 240px;
+    margin-top: 180px;
+     margin-right: 15%;
+
+}
+ 
+#learn img {
+    width: 570px;
+    height: 350px;
+}
+ 
+#learn img:first-child {
+    float: left;
+    margin-top: 110px;
+    margin-left: 10%;
+}
+ 
+#learn img:nth-child(2) {
+    float: right;
+    margin-top: 80px;
+    margin-right: 10%;
+}
+ 
+#learn p:first-child {
+    font: 24px bold;
+}
+ 
+#crew {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+ 
+#crew div:first-child {
+    width: 700px;
+    margin: 80px  auto ;
+}
+ 
+ 
+#crewphoto {
+    width: 960px;
+    height: 710px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+ 
+#crewphoto img {
+    width: 470px;
+    height: 350px;
+}
+
+
+table {
+	width: 700px;
+	background-color:black;
+	border-collapse: collapse;
+	text-align: center;
+	margin:auto;
+	cursor: default;
+	border: 1px solid #ccc;
+	margin-top:10px;
+	box-shadow: 0px 0px 10px rgba(0,255,255,0.75);
+	border: 1px solid rgba(127,255,255,0.75);
+	-webkit-box-shadow: 0px 0px 8px rgba(0,255,255,0.75);
+	-moz-box-shadow: 0px 0px 8px rgba(0,255,255,0.75);
+	box-shadow: 0px 0px 8px rgba(0,255,255,0.75);
+}
+.tbTitle>th {
+	font-weight: 300;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	font: 15px "微软雅黑", Arial, Helvetica, sans-serif;
+	background-color: rgba(0,93,93,0.8);
+	color: #efefef;
+	text-shadow: 0px 0px 20px rgba(127,255,255,1);
+}
+th, td {
+	border: 1px solid rgba(127,255,255,0.55);
+	
+}
+.tbContext:hover {
+	background-color: rgba(0,99,99,0.9) !important;
+}
+td,td>a {
+	font: 13px "微软雅黑", Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 6px 0 6px 0;
+	color: rgba(127,255,255,0.75);
+	text-shadow: 0px 0px 20px rgba(0,255,255,0.75);/*-webkit-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+	-moz-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+	-o-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+	-ms-filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));
+	filter: drop-shadow(0px 0px 20px rgba(0,255,255,0.95));*/
+}
+.tbContext:nth-child(2n 1) {
+	background-color: rgba(0,127,127,0.1);
+}
+
+
+
+
+ 
+#contacts {
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+}
+ 
+#contacts>div {
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#contacts>div>div {
+    width: 470px;
+    height: 560px;
+    margin-top: 70px;
+}
+ 
+#contacts>div>div:first-child {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+ 
+#contacts input {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 200);
+}
+ 
+#fell {
+    text-align: center;
+    vertical-align: middle;
+    width: 370px;
+    height: 110px;
+    line-height: 110px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+ 
+#email {
+    height: 50px;
+    margin-left: 50px;
+}
+ 
+#subject {
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ 
+#message {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 140px;
+}
+ 
+#send {
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 85px;
+    background-color: #000000;
+    color: #ffffff;
+}
+ 
+#con {
+    text-align: left;
+    width: 360px;
+    height: 370px;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+ 
+#con p:first-child {
+    font-size: 48px;
+}
+#con img {
+    width: 20px;
+    height: 20px;
+}
+ 
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+}
+ 
+footer>div {
+    width: 75%;
+    height: 310px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+ 
+footer div div {
+    width: 150px;
+    height: 200px;
+}
+ 
+footer div div:last-child {
+    width: 270px;
+    height: 200px;
+}
+ 
+footer div div p:first-child {
+    color: #ffffff;
+}
+ 
+      
